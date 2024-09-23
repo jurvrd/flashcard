@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Krona+One&display=swap");
- @import url("./estilo/header.css");
- @import url("./estilo/sessao.css");
  
 :root{
     --cor-defundo: #008080;
@@ -10,4 +8,7 @@
 body{
     background-color: var(--cor-defundo);
     
+}
+.conteudo{
+    display: flex;
 }
