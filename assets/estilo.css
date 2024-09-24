@@ -19,3 +19,8 @@ body{
     flex-basis: calc(33% - 6rem);
     text-align: center;
 }
+.cartao p{
+    font-size: 28px;
+    margin-top: 1rem;
+    padding: 2rem;
+}
