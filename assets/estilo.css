@@ -27,7 +27,7 @@ body{
 }
 .cartao:hover .cartao--conteudo{
     background-color: yellow;
-    transform: rotateY(180);
+    transform: rotateY(180eg);
 }
 .cartao--pergunta, .cartao resposta{
 backface-visibiLity: hidden;
