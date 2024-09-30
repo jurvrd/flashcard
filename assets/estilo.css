@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 .cartao--conteudo{
-    background-color: white;
+    background-color: white; 
     transform-style: preserve-3d ;
     transition: transform 300ms ease-in-out ;
     
@@ -29,8 +29,11 @@ body{
     background-color: yellow;
     transform: rotateY(180deg);
 }
-.cartao--pergunta, .cartao resposta{
+.cartao--conteudo--pergunta, .cartao--conteudo--resposta{
 backface-visibiLity: hidden;
+}
+.cartao--conteudo--resposta {
+    transform: rotateY(180deg);
 }
 
 .cartao p{
