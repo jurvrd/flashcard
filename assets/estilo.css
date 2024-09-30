@@ -31,7 +31,6 @@ body{
 }
 .cartao--pergunta, .cartao--resposta{
 backface-visibiLity: hidden;
-position: absolute;
 }
 .cartao--resposta {
     transform: rotateY(180deg);
