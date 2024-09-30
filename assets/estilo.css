@@ -27,14 +27,11 @@ body{
 }
 .cartao:hover .cartao--conteudo{
     background-color: yellow;
-    transform: rotateY(180);
+    transform: rotateY(180eg);
 }
 .cartao--pergunta, cartao resposta{
 backface-visibiLity: hidden;
 }
-.cartao--resposta{
- transform: rotateY(180);
-}
 
 .cartao p{
     font-size: 28px;
@@ -42,11 +39,6 @@ backface-visibiLity: hidden;
     padding: 2rem;
 }
 
-.cartao p{
-    font-size: 28px;
-    margin-top: 1rem;
-    padding: 2rem;
-}
 .rodape{
     background-color: white;
     color: #000000;
