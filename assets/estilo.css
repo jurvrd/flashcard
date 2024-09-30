@@ -32,7 +32,7 @@ body{
 .cartao--pergunta, .cartao--resposta{
 backface-visibiLity: hidden;
 }
-.cartao--conteudo--resposta {
+.cartao--resposta {
     transform: rotateY(180deg);
 }
 
