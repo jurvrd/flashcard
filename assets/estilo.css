@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 .cartao--conteudo{
-    background-color: white; 
+       background-color: white; 
     transform-style: preserve-3d ;
     transition: transform 300ms ease-in-out ;
     
