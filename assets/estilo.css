@@ -21,9 +21,11 @@ body{
 }
 .cartao--conteudo{
     background-color: white;
+    
 }
-.cartao:hover{
+.cartao:hover .cartao--conteudo{
     background-color: yellow;
+    transform: rotateY(180eg);
 }
 .cartao p{
     font-size: 28px;
