@@ -29,7 +29,7 @@ body{
     background-color: yellow;
     transform: rotateY(180deg);
 }
-.cartao--conteudo--pergunta, .cartao--conteudo--resposta{
+.cartao--pergunta, .cartao--resposta{
 backface-visibiLity: hidden;
 }
 .cartao--conteudo--resposta {
