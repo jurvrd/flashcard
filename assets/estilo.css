@@ -21,11 +21,13 @@ body{
 }
 .cartao--conteudo{
     background-color: white;
+    transform-style: preserve-3d ;
+    transition: transform 300ms ease-in-out ;
     
 }
 .cartao:hover .cartao--conteudo{
     background-color: yellow;
-    transform: rotateY(180);
+    transform:rotateY(180eg);
 }
 .cartao p{
     font-size: 28px;
