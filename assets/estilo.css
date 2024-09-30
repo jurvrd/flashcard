@@ -25,7 +25,7 @@ body{
 }
 .cartao:hover .cartao--conteudo{
     background-color: yellow;
-    transform: rotateY(180eg);
+    transform: rotateY(180);
 }
 .cartao p{
     font-size: 28px;
