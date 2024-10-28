@@ -37,7 +37,7 @@ body{
 backface-visibiLity: hidden;
 }
 .cartao--resposta {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .cartao p{
