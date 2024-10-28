@@ -31,13 +31,13 @@ body{
 }
 .cartao:hover .cartao--conteudo{
     background-color: yellow;
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
 }
 .cartao--pergunta, .cartao--resposta{
 backface-visibiLity: hidden;
 }
 .cartao--resposta {
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
 }
 
 .cartao p{
