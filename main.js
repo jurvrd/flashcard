@@ -2,7 +2,11 @@
         let conteudo = document.getElementById ('conteudo')
         let cartao = document.createElement ('article')
         cartao.className = 'cartao'
+        
         cartao.innerHTML =
-        <div class= "cartao--conteudo"></div>
-        <div class= ></div>
+        <div class= "cartao--conteudo">
+        <div class="cartao--pergunta"><p>Como o Capitão América virou um super soldado?</p> </div>
+        <div class="cartao--resposta"><p>Participou de uma experiencia criada pelos militares.</p> </div>
+        </div>
+        console.log(cartao)
     }
