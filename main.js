@@ -1,4 +1,8 @@
     function criaCartao(pergunta, resposta) {
-        console.log(pergunta, resposta)
+        let conteudo = document.getElementById ('conteudo')
+        let cartao = document.createElement ('article')
+        cartao.className = 'cartao'
+        cartao.innerHTML =
+        <div class= "cartao--conteudo"></div>
+        <div class= ></div>
     }
-    criaCartao(1,2)
