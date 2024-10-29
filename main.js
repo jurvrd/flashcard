@@ -9,4 +9,14 @@
         <div class="cartao--resposta"><p>Participou de uma experiencia criada pelos militares.</p> </div>
         </div>
         console.log(cartao)
+
+        let respostaEstaVisivel = false
+
+        function viraCartao() {
+            respostaEstaVisivel = !respostaEstaVisivel
+            cartao.classList. toggle('active',respostaEstaVisivel)
+        }
+        cartao.addEventListener('click', viraCartao)
+
+        conteudo.appendChild(cartao)
     }
