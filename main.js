@@ -4,10 +4,10 @@
         cartao.className = 'cartao'
         
         cartao.innerHTML =
-        <div class= "cartao--conteudo">
-        <div class="cartao--pergunta"><p>Como o Capitão América virou um super soldado?</p> </div>
-        <div class="cartao--resposta"><p>Participou de uma experiencia criada pelos militares.</p> </div>
-        </div>
+        `<div class= "cartao--conteudo">
+        <div class="cartao--pergunta"><p>${pergunta}</p> </div>
+        <div class="cartao--resposta"><p>${resposta}</p> </div>
+        </div>`
         console.log(cartao)
 
         let respostaEstaVisivel = false
