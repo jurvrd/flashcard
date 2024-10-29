@@ -9,7 +9,7 @@ body{
     background-color: var(--cor-defundo);
     
 }
-.conteudo{
+#conteudo{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
